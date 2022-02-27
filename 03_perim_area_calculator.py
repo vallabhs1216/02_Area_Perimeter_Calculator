@@ -1,9 +1,6 @@
 # funtions go here
 
 # checks input is a number that is more then zero
-from turtle import width
-
-
 def num_check (question):
 
 
@@ -32,7 +29,13 @@ def num_check (question):
 # Main Routine goes here
 width = num_check("Width: ")
 height = num_check("Height: ")
-print()
-print("Width", width)
-print("Height", height)
-print()
+
+# Calculate area (width x height)
+area = width * height
+
+# Calculate perimeter (width + height) x 2
+perimeter = 2 * (width + height)
+
+# Output area and perimeter
+print("Perimeter: {} units".format(perimeter))
+print("Area: {} square units".format(area))

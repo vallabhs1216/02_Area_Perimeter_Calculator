@@ -28,6 +28,12 @@ def num_check (question):
 
 # Main Routine goes here
 
+# Introduction / Heading print statements
+print()
+print("**** Area Perimeter Calculator *****")
+print()
+
+# Start of calculator loop
 keep_going = ""
 while keep_going == "":
 
